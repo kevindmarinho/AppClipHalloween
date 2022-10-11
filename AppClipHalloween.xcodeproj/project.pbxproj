@@ -11,7 +11,36 @@
 		286766FF28F4B01B00124EF1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286766FE28F4B01B00124EF1 /* ContentView.swift */; };
 		2867670128F4B01B00124EF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2867670028F4B01B00124EF1 /* Assets.xcassets */; };
 		2867670428F4B01B00124EF1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2867670328F4B01B00124EF1 /* Preview Assets.xcassets */; };
+		2867671128F4B10B00124EF1 /* HalloweenClipApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2867671028F4B10B00124EF1 /* HalloweenClipApp.swift */; };
+		2867671328F4B10B00124EF1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2867671228F4B10B00124EF1 /* ContentView.swift */; };
+		2867671528F4B10D00124EF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2867671428F4B10D00124EF1 /* Assets.xcassets */; };
+		2867671828F4B10D00124EF1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2867671728F4B10D00124EF1 /* Preview Assets.xcassets */; };
+		2867671D28F4B10D00124EF1 /* HalloweenClip.app in Embed App Clips */ = {isa = PBXBuildFile; fileRef = 2867670E28F4B10B00124EF1 /* HalloweenClip.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2867671B28F4B10D00124EF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 286766F128F4B01B00124EF1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2867670D28F4B10B00124EF1;
+			remoteInfo = HalloweenClip;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2867672128F4B10D00124EF1 /* Embed App Clips */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/AppClips";
+			dstSubfolderSpec = 16;
+			files = (
+				2867671D28F4B10D00124EF1 /* HalloweenClip.app in Embed App Clips */,
+			);
+			name = "Embed App Clips";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		286766F928F4B01B00124EF1 /* AppClipHalloween.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppClipHalloween.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -19,10 +48,24 @@
 		286766FE28F4B01B00124EF1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2867670028F4B01B00124EF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2867670328F4B01B00124EF1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2867670E28F4B10B00124EF1 /* HalloweenClip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HalloweenClip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2867671028F4B10B00124EF1 /* HalloweenClipApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HalloweenClipApp.swift; sourceTree = "<group>"; };
+		2867671228F4B10B00124EF1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2867671428F4B10D00124EF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2867671728F4B10D00124EF1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2867671928F4B10D00124EF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2867671A28F4B10D00124EF1 /* HalloweenClip.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HalloweenClip.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		286766F628F4B01B00124EF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2867670B28F4B10B00124EF1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -36,6 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				286766FB28F4B01B00124EF1 /* AppClipHalloween */,
+				2867670F28F4B10B00124EF1 /* HalloweenClip */,
 				286766FA28F4B01B00124EF1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,6 +88,7 @@
 			isa = PBXGroup;
 			children = (
 				286766F928F4B01B00124EF1 /* AppClipHalloween.app */,
+				2867670E28F4B10B00124EF1 /* HalloweenClip.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -67,6 +112,27 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		2867670F28F4B10B00124EF1 /* HalloweenClip */ = {
+			isa = PBXGroup;
+			children = (
+				2867671028F4B10B00124EF1 /* HalloweenClipApp.swift */,
+				2867671228F4B10B00124EF1 /* ContentView.swift */,
+				2867671428F4B10D00124EF1 /* Assets.xcassets */,
+				2867671928F4B10D00124EF1 /* Info.plist */,
+				2867671A28F4B10D00124EF1 /* HalloweenClip.entitlements */,
+				2867671628F4B10D00124EF1 /* Preview Content */,
+			);
+			path = HalloweenClip;
+			sourceTree = "<group>";
+		};
+		2867671628F4B10D00124EF1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2867671728F4B10D00124EF1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,15 +143,34 @@
 				286766F528F4B01B00124EF1 /* Sources */,
 				286766F628F4B01B00124EF1 /* Frameworks */,
 				286766F728F4B01B00124EF1 /* Resources */,
+				2867672128F4B10D00124EF1 /* Embed App Clips */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				2867671C28F4B10D00124EF1 /* PBXTargetDependency */,
 			);
 			name = AppClipHalloween;
 			productName = AppClipHalloween;
 			productReference = 286766F928F4B01B00124EF1 /* AppClipHalloween.app */;
 			productType = "com.apple.product-type.application";
+		};
+		2867670D28F4B10B00124EF1 /* HalloweenClip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2867671E28F4B10D00124EF1 /* Build configuration list for PBXNativeTarget "HalloweenClip" */;
+			buildPhases = (
+				2867670A28F4B10B00124EF1 /* Sources */,
+				2867670B28F4B10B00124EF1 /* Frameworks */,
+				2867670C28F4B10B00124EF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HalloweenClip;
+			productName = HalloweenClip;
+			productReference = 2867670E28F4B10B00124EF1 /* HalloweenClip.app */;
+			productType = "com.apple.product-type.application.on-demand-install-capable";
 		};
 /* End PBXNativeTarget section */
 
@@ -98,6 +183,9 @@
 				LastUpgradeCheck = 1340;
 				TargetAttributes = {
 					286766F828F4B01B00124EF1 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					2867670D28F4B10B00124EF1 = {
 						CreatedOnToolsVersion = 13.4.1;
 					};
 				};
@@ -116,6 +204,7 @@
 			projectRoot = "";
 			targets = (
 				286766F828F4B01B00124EF1 /* AppClipHalloween */,
+				2867670D28F4B10B00124EF1 /* HalloweenClip */,
 			);
 		};
 /* End PBXProject section */
@@ -127,6 +216,15 @@
 			files = (
 				2867670428F4B01B00124EF1 /* Preview Assets.xcassets in Resources */,
 				2867670128F4B01B00124EF1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2867670C28F4B10B00124EF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2867671828F4B10D00124EF1 /* Preview Assets.xcassets in Resources */,
+				2867671528F4B10D00124EF1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,7 +240,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2867670A28F4B10B00124EF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2867671328F4B10B00124EF1 /* ContentView.swift in Sources */,
+				2867671128F4B10B00124EF1 /* HalloweenClipApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2867671C28F4B10D00124EF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2867670D28F4B10B00124EF1 /* HalloweenClip */;
+			targetProxy = 2867671B28F4B10D00124EF1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		2867670528F4B01B00124EF1 /* Debug */ = {
@@ -262,6 +377,7 @@
 		2867670828F4B01B00124EF1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -291,6 +407,7 @@
 		2867670928F4B01B00124EF1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -317,6 +434,70 @@
 			};
 			name = Release;
 		};
+		2867671F28F4B10D00124EF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HalloweenClip/HalloweenClip.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HalloweenClip/Preview Content\"";
+				DEVELOPMENT_TEAM = XJ57BXJG95;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HalloweenClip/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = AppClipHalloween;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = teste.AppClipHalloween.Clip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2867672028F4B10D00124EF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HalloweenClip/HalloweenClip.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HalloweenClip/Preview Content\"";
+				DEVELOPMENT_TEAM = XJ57BXJG95;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HalloweenClip/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = AppClipHalloween;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = teste.AppClipHalloween.Clip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -334,6 +515,15 @@
 			buildConfigurations = (
 				2867670828F4B01B00124EF1 /* Debug */,
 				2867670928F4B01B00124EF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2867671E28F4B10D00124EF1 /* Build configuration list for PBXNativeTarget "HalloweenClip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2867671F28F4B10D00124EF1 /* Debug */,
+				2867672028F4B10D00124EF1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

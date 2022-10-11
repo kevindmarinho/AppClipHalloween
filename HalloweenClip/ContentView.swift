@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  AppClipHalloween
+//  HalloweenClip
 //
 //  Created by kevin marinho on 10/10/22.
 //
