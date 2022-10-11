@@ -10,7 +10,7 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Text("Helloween 🎃🦇!!")
+            Text("Hello World, without AppClip!!")
                 .padding()
         }.frame(maxWidth: .infinity, maxHeight: .infinity)
         .background(Color.purple)

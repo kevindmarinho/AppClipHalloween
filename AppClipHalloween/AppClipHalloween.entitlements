@@ -6,9 +6,5 @@
 	<array>
 		<string>appclips:medina2001.github.io</string>
 	</array>
-	<key>com.apple.developer.parent-application-identifiers</key>
-	<array>
-		<string>$(AppIdentifierPrefix)com.appClipHalloween</string>
-	</array>
 </dict>
 </plist>
