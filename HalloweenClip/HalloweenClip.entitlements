@@ -4,7 +4,7 @@
 <dict>
 	<key>com.apple.developer.associated-domains</key>
 	<array>
-		<string>appclips:medina2001.github.io</string>
+		<string>https://medina2001.github.io/AppClipHalloween/</string>
 	</array>
 	<key>com.apple.developer.parent-application-identifiers</key>
 	<array>
